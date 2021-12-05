@@ -12,6 +12,25 @@
                       b {
                         color: white;
                       }
+
+                      .bold_head{
+                        font-weight: 1500;
+                      }
+
+                      /* Create two equal columns that floats next to each other */
+                     .column {
+                       float: left;
+                      width: 50%;
+                      padding: 10px;
+                       height: 300px; /* Should be removed. Only for demonstration */
+                      }
+
+                     /* Clear floats after the columns */
+                     .row1:after {
+                      content: "";
+                      display: table;
+                     clear: both;
+                    }
                       
                       .navbar {
                         background: transparent !important;
@@ -42,6 +61,15 @@
                         color: rgba(255, 255, 255, 1);
                         font-size: 1.5rem;
                         font-weight: 600;
+                      }
+
+                      .navbar_move{
+                        margin-right: 150px;
+                        margin-left: 180px;
+                      }
+
+                      .L-item{
+                        padding: 50px;
                       }
                       
                       /*galaxy background*/
@@ -203,6 +231,11 @@
 
                       .size_image{
                         width:300px;
+                        height:600px;
+                      }
+
+                      .home_size_image{
+                        width:500px;
                         height:600px;
                       }
 
