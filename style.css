@@ -13,18 +13,34 @@
                         color: white;
                       }
 
-                      .bold_head{
-                        float: left;
-                        font-weight: 1500;
-                      }
 
                       /* Create two equal columns that floats next to each other */
-                     .column {
+                      /*3 columns*/
+                     .column2 {
                        float: left;
-                      width: 50%;
-                      padding: 10px;
+                       width: 30%;
+                       padding: 10px;
                        height: 300px; /* Should be removed. Only for demonstration */
+                       margin: 10px;
+                      border: 1px solid rgba(255,255,255,.5);
                       }
+
+                      .gray{
+                        color:  #D3D3D3;
+                        text-align: center;
+                      }
+
+                      .centerT{
+                        text-align: center;
+                      }
+
+                        /* Create two equal columns that floats next to each other */
+                     .column {
+                      float: left;
+                     width: 50%;
+                     padding: 10px;
+                      height: 300px; /* Should be removed. Only for demonstration */
+                     }
 
                      /* Clear floats after the columns */
                      .row1:after {
@@ -139,10 +155,18 @@
                         height: 100vh;
                       }
                       h2 {
+                        font-size: 4vw;
+                        color: #fff;
+                        margin-bottom: 0px;
+                      }
+
+                      h3 {
                         font-size: 5vw;
                         color: #fff;
-                        margin-bottom: 20px;
+                     /*   margin-bottom: 20px; */
+                        font-weight: bold;
                       }
+
                       p {
                         color: #fff;
                       }
@@ -291,7 +315,18 @@
                       
 
                       /*griant color button*/
+                      .button-link{
+                        color: #FFF;
+                        text-decoration: none;
+                      }
+
+                      .button-link:hover{
+                        color: #FFF;
+                        text-decoration: none;
+                      }
+
                       .gradient-button {
+                        text-decoration: none;
                         margin: 10px;
                         font-family: "Arial Black", Gadget, sans-serif;
                         font-size: 20px;
@@ -313,9 +348,27 @@
                     .gradient-button:hover{
                         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
                         margin: 8px 10px 12px;
+                        color: #FFF;
+                        text-decoration: none;
                     }
-                    .gradient-button-1 {background-image: linear-gradient(to right, #0CFFC5 0%, #244076 50%)}
-                    .gradient-button-1:hover { background-position: right center; }
+
+                    .gradient-button-1 {
+                      background-image: linear-gradient(to right, #0CFFC5 0%, #244076 50%);
+                      color: #FFF;
+                        text-decoration: none;
+                    }
+
+                    .gradient-button-1:hover { 
+                      background-position: right center; color: #FFF;
+                      text-decoration: none; 
+                    }
+
+
+                    /*hover mouse over home phone image*/
+                    .home-img:hover{
+                      box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
+                      margin: 8px 10px 12px;
+                    }
                     
                     
                       

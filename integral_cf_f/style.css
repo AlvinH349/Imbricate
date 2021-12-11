@@ -1,0 +1,9 @@
+.font-face {
+    font-family: 'Integral CF';
+    src: local('Integral CF Heavy Oblique'), local('Integral-CF-Heavy-Oblique'),
+        url('IntegralCF-HeavyOblique.woff2') format('woff2'),
+        url('IntegralCF-HeavyOblique.woff') format('woff'),
+        url('IntegralCF-HeavyOblique.ttf') format('truetype');
+    font-weight: bold;
+    font-style: normal;
+  }
