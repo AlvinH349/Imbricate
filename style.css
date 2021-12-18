@@ -20,7 +20,7 @@
                        float: left;
                        width: 30%;
                        padding: 10px;
-                       height: 300px; /* Should be removed. Only for demonstration */
+                       height: 400px; /* Should be removed. Only for demonstration */
                        margin: 10px;
                       border: 1px solid rgba(255,255,255,.5);
                       }
@@ -30,9 +30,46 @@
                         text-align: center;
                       }
 
+                      /*center text*/
                       .centerT{
                         text-align: center;
                       }
+
+                      .centerImg {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 50%;
+                      }
+
+                      .centerImg2 {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 60%;
+                      }
+
+                      .centerImg3 {
+                        display: block;
+                        margin-left: auto;
+                        margin-right: auto;
+                        width: 50%;
+                      }
+
+                      .sizeImg2{
+                        width: 190px;
+                      }
+
+                      .openWImg2{
+                       float:right;
+                       padding-right: 80px;
+                      }
+
+                      .sizeImg3{
+                        width: 150px;
+                      }
+
+          
 
                         /* Create two equal columns that floats next to each other */
                      .column {
