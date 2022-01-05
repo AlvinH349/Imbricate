@@ -31,6 +31,16 @@
                         text-align: center;
                       }
 
+                      .gray2{
+                        color:  #9CA3AF;
+                        text-align: left;
+                      }
+
+                      .h4white{
+                        color: white;
+                        text-align: left;
+                      }
+
                       /*center text*/
                       .centerT{
                         text-align: center;
@@ -78,6 +88,13 @@
                      width: 50%;
                      padding: 10px;
                       height: 300px; /* Should be removed. Only for demonstration */
+                     }
+
+                     .bggrayAI{
+                       background:rgba(0, 0, 0, 0.5);
+                       padding-left: 10px;
+                       padding-right: 10px;
+                       border-radius: 3%;
                      }
 
                      /* Clear floats after the columns */
