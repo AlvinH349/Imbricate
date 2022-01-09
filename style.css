@@ -90,6 +90,47 @@
                       height: 300px; /* Should be removed. Only for demonstration */
                      }
 
+
+                        /* Create two equal columns that floats next to each other for AI */
+                        .columnAI {
+                          float: left;
+                         width: 48%;
+                         padding: 10px;
+                          height: 300px; /* Should be removed. Only for demonstration */
+                         }
+
+
+                         /* Create two equal columns that floats next to each other for AI */
+                        .columnAI2 {
+                          float: left;
+                         width: 48%;
+                         padding: 10px;
+                          height: 300px; /* Should be removed. Only for demonstration */
+                         }
+
+                         /*create column for image green z AI*/
+                     .columnImgLeft{
+                      float: left;
+                      width: 1%;
+                      padding-top: 150px;
+                      padding-right: 30px; 
+                      position: relative;
+                     }
+
+                     .columnImgRt{
+                      float: left;
+                      width: 1%;
+                      padding-top: 150px;
+                  /*    padding-left: 200px; */
+                    /*    padding-right: 100px; */
+                      position: relative;
+                     }
+
+                     .imgAI{
+                      float: left;
+                      padding-top: 150px;
+                     }
+
                      .bggrayAI{
                        background:rgba(0, 0, 0, 0.5);
                        padding-left: 10px;
@@ -102,6 +143,7 @@
                       content: "";
                       display: table;
                      clear: both;
+                     position: relative;
                     }
                       
                       .navbar {
