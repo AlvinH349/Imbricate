@@ -14,9 +14,18 @@
                       }
 
 
+                      @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
+@font-face {
+  font-family: "Integral CF Bold";
+  src: url("https://static1.squarespace.com/static/5e8cc7c970b91918875ca0d3/t/5e944716be74603c9208bbc7/1586775831436/integral-cf-bold.woff");
+}
 
+
+.font-face { font-family: "Integral CF Bold"; }
+
+/*
                       .font-face {
-                       /* font-family: 'Integral CF'; */
+                        font-family: 'Integral CF'; 
                         src: local('Integral CF Heavy Oblique'), local('Integral-CF-Heavy-Oblique'),
                             url('./integral_cf_f/IntegralCF-HeavyOblique.woff2') format('woff2'),
                             url('./integral_cf_f/IntegralCF-HeavyOblique.woff') format('woff'),
@@ -24,7 +33,8 @@
                         font-weight: bold;
                         font-style: normal;
                         font-family: 'Gilroy-Heavy', sans-serif;
-                      }
+                      } 
+                      */
 
 
 
