@@ -7,6 +7,7 @@
                       }
                       p {
                         font-size: 1.15rem;
+                        color: #fff;
                       }
                       
                       b {
@@ -35,20 +36,31 @@
                       } 
                       */
 
+                      .centerText{
+                        text-align: center;
+                      }
 
                       .appS{
-                        float: right;
-                        margin-right: 100px;
+                        float: left;
+                       /* margin-right: 100px; */
+                      /*  padding-left: 250px; */
                       }
 
+                      .btHome{
+                        float: left;
+                      }
+
+                      /*
                       .appS:hover{
                         box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
-                     /*    margin-top: 8px; */
-                      /*   margin-right: 160px; */
+
                       margin-bottom: 12px; 
                       }
+                      */
 
-
+                      .alignSubhd{
+                        margin-right: 50px;
+                      }
 
                       /* Create two equal columns that floats next to each other */
                       /*3 columns*/
@@ -59,7 +71,7 @@
                        padding: 10px;
                        height: 400px; /* Should be removed. Only for demonstration */
                        margin: 10px;
-                      border: 1px solid rgba(255,255,255,.5);
+                    /*    border: 1px solid rgba(255,255,255,.5); */
                       }
 
                       .gray{
@@ -172,6 +184,13 @@
                        padding-left: 10px;
                        padding-right: 10px;
                        border-radius: 3%;
+                     }
+
+                     .columnWide100per{
+                      float: left;
+                      width:100%;
+                      padding-top: 400px;
+                      padding-left: 100px;
                      }
 
                      /* Clear floats after the columns */
@@ -288,6 +307,12 @@
                         background: #000;
                         height: 100vh;
                       }
+
+                      .adjustSec1{
+                        padding-top: 150px;
+                        text-align:center;
+                      }
+
                       h2 {
                         font-size: 4vw;
                         color: #fff;
@@ -295,14 +320,14 @@
                       }
 
                       h3 {
-                        font-size: 5vw;
+                        font-size: 2vw;
                         color: #fff;
                      /*   margin-bottom: 20px; */
                         font-weight: bold;
                       }
 
-                      p {
-                        color: #fff;
+                      .centerP{
+                        text-align:center;
                       }
                       
                       /*Math background*/
@@ -331,6 +356,7 @@
                         background: #000;
                         height: 100vh;
                       }
+
                       .card-header {
                         background: #fff;
                       }
@@ -445,6 +471,11 @@
                           padding: 40px 0;
                         }
                       }
+
+
+                      .shiftPer{
+                        margin-left:500px;
+                      }
                       
 
                       /*griant color button*/
@@ -504,8 +535,8 @@
 
 
                     .home_size_image{
-                      width:500px;
-                      height:600px;
+                      width:300px;
+                      height:400px;
                       
                     }
 
@@ -514,19 +545,19 @@
                     }
 
                     .homeAn{
-                      width: 300px;
-                      height: 100px;
+                      width: 150px;
+                      height: 0px;
                       animation: 3s infinite alternate slidein;
                     }
 
                     @keyframes slidein {
                       from {
-                        margin-left: 20%;
+                        margin-left: -10%;
                         width: 100%;
                       }
                     
                       to {
-                        margin-left: 0%;
+                        margin-left: 10%;
                         width: 100%;
                       }
                     }
