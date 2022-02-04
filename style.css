@@ -10,9 +10,11 @@
                         color: #fff;
                       }
                       
-                      b {
+                      b,a {
                         color: white;
                       }
+
+                      
 
 
                       @import url("https://fonts.googleapis.com/css2?family=DM+Sans&display=swap");
@@ -120,7 +122,7 @@
                       }
 
                       .openWImg2{
-                       float:right;
+                       float:left;
                        padding-right: 80px;
                       }
 
@@ -472,9 +474,25 @@
                         }
                       }
 
+                      .head_shift_left{
+                        margin-right: 100px;
+                      }
+
+                      .left_head{
+                        text-align:left;
+                      }
+
 
                       .shiftPer{
                         margin-left:500px;
+                      }
+
+                      .shiftTemp{
+                        margin-left:300px;
+                      }
+
+                      .adjustWidget{
+                        margin-left:100px;
                       }
                       
 
