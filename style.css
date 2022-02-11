@@ -140,6 +140,23 @@
                       height: 300px; /* Should be removed. Only for demonstration */
                      }
 
+                        /* Create 2 big equal columns that floats next to each other */
+                        .column4Big {
+                          float: left;
+                         width: 40%;
+                         padding: 10px;
+                          height: 300px; /* Should be removed. Only for demonstration */
+                         }
+
+                          /* Create 2 small equal columns that floats next to each other */
+                        .column4Little {
+                          float: left;
+                         width: 10%;
+                         padding-left: 120px;
+                         padding-top: 10px;
+                          height: 300px; /* Should be removed. Only for demonstration */
+                         }
+
 
                         /* Create two equal columns that floats next to each other for AI */
                         .columnAI {
@@ -156,6 +173,14 @@
                          width: 48%;
                          padding: 10px;
                           height: 300px; /* Should be removed. Only for demonstration */
+                         }
+
+                         /*3 columns*/
+                         .column3PI{
+                          float: left;
+                          width: 33%;
+                          padding: 100px;
+                           height: 300px;
                          }
 
                          /*create column for image green z AI*/
